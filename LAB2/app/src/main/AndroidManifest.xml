@@ -19,7 +19,8 @@
         <activity
             android:name=".ResultActivity"
             android:label="@string/app_name" />
-        <activity android:name=".LAB2MainActivity"/>
+        <activity android:name=".LAB2MainActivity" />
+        <activity android:name=".urlLauncherActivity"/>
     </application>
 
 </manifest>

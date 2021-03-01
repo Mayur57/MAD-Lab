@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    Button b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, bAdd, bSub, bDiv, bMul, bClr, bEql, bQ1;
+    Button b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, bAdd, bSub, bDiv, bMul, bClr, bEql, bQ1, bQ4;
     EditText editText1;
     String result = "place";
     float operand1, operand2;
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         bDiv = findViewById(R.id.buttondiv);
         bEql = findViewById(R.id.buttoneql);
         bQ1 = findViewById(R.id.buttonLQ1);
+        bQ4 = findViewById(R.id.buttonLQ4);
         editText1 = findViewById(R.id.editText1);
 
         b0.setOnClickListener(v -> editText1.setText(editText1.getText() + "0"));
@@ -134,6 +135,11 @@ public class MainActivity extends AppCompatActivity {
         bQ1.setOnClickListener(v -> {
             Intent putResultIntent = new Intent(MainActivity.this, LAB2MainActivity.class);
             MainActivity.this.startActivity(putResultIntent);
+        });
+
+        bQ4.setOnClickListener(v -> {
+            Intent putResultIntent2 = new Intent(MainActivity.this, urlLauncherActivity.class);
+            MainActivity.this.startActivity(putResultIntent2);
         });
     }
 
