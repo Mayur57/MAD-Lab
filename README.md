@@ -5,14 +5,14 @@ This repository contains all the lab question in the format of build-and-run app
 
 ### Clone and Run
 **Requirements**
-• [Android Studio](https://developer.android.com/studio)
-• Android SDK (Install through Android Studio)
-• [Java Runtime and JDK](https://www.oracle.com/in/java/technologies/javase-jdk15-downloads.html) (You probably already have this)
+- [Android Studio](https://developer.android.com/studio)
+- Android SDK (Install through Android Studio)
+- [Java Runtime and JDK](https://www.oracle.com/in/java/technologies/javase-jdk15-downloads.html) (You probably already have this)
 
 **Steps to run the apps**
-• Clone this repo to your device
-• Open Android Studio and select *Open an Existing Project*
-• Now, select the folder corresponding to the Lab/Evaluation you want the app of
+- Clone this repo to your device
+- Open Android Studio and select *Open an Existing Project*
+- Now, select the folder corresponding to the Lab/Evaluation you want the app of
  
  ### I just want the code
  Don't need to run the whole app and just need Java or XML code? You find the Java files in the following directory for any given Lab folder: ```app/src/main/java/com/application/{App-Name-Here}/```
