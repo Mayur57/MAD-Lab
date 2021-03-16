@@ -26,6 +26,9 @@ This repository contains all the lab question in the format of build-and-run app
  
   ##### Evaluation 1
   You are supposed to make an app which shows the users a text field where the user can input integers ranging from 1-10. The app should also maintain a *random integer seed* also ranging from 1-10. The screen also has a button that says "Guess". Upon, clicking the button, the app should compare the seed and the user input to check if they are same. If they are same, the app should show a toast saying "Guess was correct". Otherwise, it should show a toast saying whether the input was greater/smaller than the seed. Seed should be refreshed upon each button click.
+  
+  ##### Evaluation 2
+  You are supposed to make an app which shows the users a list view containing 3 items: "Fruits", "Vegetables" and "Junk". On press of any of the list items the image corresponding to the list item should be shown. Note: The method to show the image is not clear and the solution is disputed. One of the possible ways is to change the background of the main activity to the image while the other method is to launch a new activity using an ```Intent```. The solution posted here uses the latter approach.
  
   ### Contribute
   Want to contribute? Awesome, fork the repo and open a pull request with your changes and I will merge it after reviewing as soon as possible.
